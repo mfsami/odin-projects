@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -28,6 +31,8 @@ input {
 ul {
   list-style-type: none;
   display: flex;
+  margin: 0;
+  padding: 0;
   gap: 16px;
 }
 
@@ -45,10 +50,15 @@ a:hover {
   color: rgb(175, 174, 174);
 }
 
+button {
+  padding: 8px 16px;
+}
+
 .header,
 .footer {
   display: flex;
   justify-content: space-between;
+  padding: 16px;
 }
 
 .right-links,
@@ -58,8 +68,16 @@ a:hover {
 }
 
 .content {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 16px;
+  margin-bottom: 100px;
+}
+
+.footer {
+  margin-top: auto;
+  background: #f3f3f3;
 }
