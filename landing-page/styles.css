@@ -13,23 +13,26 @@ ul {
 /* HEADER STYLES */
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin-left: 200px;
-  margin-right: 200px;
+
+  /* Line under header */
+  gap: 550px;
   color: black;
+  border-bottom: 1px solid black;
 }
 
 .logo img {
   width: 8%;
   height: auto;
+  margin-bottom: 10px;
 }
 
 /* SECTION 1 STYLES */
 
 /* ENTIRE SECTION */
 .section1 {
-  background-color: rgb(148, 144, 144);
+  background-color: rgb(255, 255, 255);
   padding: 0;
   margin: 0;
   border: 0;
@@ -69,4 +72,40 @@ ul {
   gap: 80px;
   justify-content: center;
   align-items: center;
+}
+
+/* SECTION 2 STYLES */
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+/* TOP HEADER TEXT */
+.info-header {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* HEADER SUBTEXT */
+
+.header-subtext {
+  font-size: 15px;
+  color: black;
+}
+
+/* CLOTHES CONTAINER */
+.clothes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* IMAGES */
+.clothes img {
+  height: auto;
+  width: 300px;
 }
