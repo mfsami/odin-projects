@@ -9,14 +9,8 @@ ul {
   padding: 0;
   gap: 16px;
 }
-.section1 {
-  background-color: white;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-}
+
+/* HEADER STYLES */
 .header {
   display: flex;
   justify-content: space-between;
@@ -26,35 +20,53 @@ ul {
   color: black;
 }
 
-.logo {
-  font-size: 24px;
-  font-weight: bold;
+.logo img {
+  width: 8%;
+  height: auto;
 }
 
+/* SECTION 1 STYLES */
+
+/* ENTIRE SECTION */
+.section1 {
+  background-color: rgb(148, 144, 144);
+  padding: 0;
+  margin: 0;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+/* MAIN BIG TEXT */
 .main-text {
   font-weight: bold;
   font-size: 48px;
   color: black;
 }
 
+/* SUBTEXT UNDER BIG TEXT */
 .subtext1 {
   font-size: 18px;
   color: black;
 }
 
-.subimage1 {
-  width: 500x;
+/* GROUPED TEXTS */
+.textgroup1 {
+  width: 460px;
   height: auto;
 }
 
+/* IMAGE TO THE RIGHT OF TEXT */
+.subimage1 {
+  width: 500px;
+  height: auto;
+}
+
+/* ALL ELEMENTS WITHIN SECTION GROUPED. TEXT + IMAGE */
 .subsection1 {
   display: flex;
   gap: 80px;
   justify-content: center;
   align-items: center;
-}
-
-.textgroup1 {
-  width: 450px;
-  height: auto;
 }
