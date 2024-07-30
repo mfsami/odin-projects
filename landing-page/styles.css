@@ -1,5 +1,8 @@
 body {
-  font-family: Roboto, sans-serif;
+  /* font-family: Roboto, sans-serif; */
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 ul {
@@ -56,7 +59,7 @@ ul {
 
 /* GROUPED TEXTS */
 .textgroup1 {
-  width: 460px;
+  width: 510px;
   height: auto;
 }
 
@@ -102,10 +105,40 @@ ul {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 /* IMAGES */
 .clothes img {
   height: auto;
   width: 300px;
+}
+
+/* FOOTER STYLES */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.636);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  backdrop-filter: saturate(180%) blur(20px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.empty {
+  color: black;
+  height: 300px;
 }
