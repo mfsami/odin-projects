@@ -16,3 +16,14 @@ const MAX = 57;
 let actual = MAX - 13;
 let percentage = actual / MAX;
 console.log(percentage);
+
+let name = "Sami";
+console.log("Hello", name);
+
+let word = prompt("Enter word: ");
+
+function lastLetter(word) {
+  return word[word.length - 1];
+}
+
+console.log(lastLetter(word));
